@@ -1,0 +1,48 @@
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+   background-color:#89bed5;
+    align-items: center;
+   
+
+}
+.nav{
+    flex: 1;
+    /* text-align:right; */
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: yellow;
+  
+}
+.card:hover{
+    color:cadetblue
+
+}

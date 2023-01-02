@@ -1,0 +1,62 @@
+<div class="" align="center">
+    <form class="form border border-2 w-25" [formGroup]="registerForm">
+        <h3 class="mt-3">REGISTER</h3>
+        <h6 class="mt-4">Register Your Account</h6>
+
+        <!-- Email input -->
+        <div class="form-outline mb-4 mt-4">
+          <input type="text" formControlName="name" id="name" class="form-control w-75"  placeholder="user name" />
+          <!-- <label class="form-label" for="form2Example1">Email address</label> -->
+        </div>
+        <!-- PHONE NUMBER input -->
+        <div class="form-outline mb-4 mt-4">
+            <input type="text" formControlName="phone" id="phone" class="form-control w-75"  placeholder="phone number" />
+            <!-- <label class="form-label" for="form2Example1">Email address</label> -->
+          </div>
+      
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+          <input type="password" formControlName="pswd" id="pswd" class="form-control w-75" placeholder="password"  />
+          <!-- <label class="form-label" for="form2Example2">Password</label> -->
+        </div>
+      
+        <!-- 2 column grid layout for inline styling -->
+        <!-- <div class="row mb-4"> -->
+          <!-- <div class="col d-flex justify-content-center"> -->
+            <!-- Checkbox -->
+            <!-- <div class="form-check"> -->
+              <!-- <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked /> -->
+              <!-- <label class="form-check-label" for="form2Example31"> Remember me </label> -->
+            <!-- </div> -->
+          <!-- </div> -->
+      
+          <!-- <div class="col"> -->
+            <!-- Simple link -->
+            <!-- <a href="#!">Forgot password?</a> -->
+          <!-- </div> -->
+        <!-- </div> -->
+      
+        <!-- Submit button -->
+        <button type="button" (click)="register()" class="btn btn-primary btn-block m-2 mb-4" cl>Sign Up</button>
+      
+        <!-- Register buttons -->
+        <div class="text-center">
+          <p>I have an account <a href="#!">LOGIN</a></p>
+          <!-- <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-facebook-f"></i>
+          </button>
+      
+          <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-google"></i>
+          </button>
+      
+          <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-twitter"></i>
+          </button>
+      
+          <button type="button" class="btn btn-link btn-floating mx-1">
+            <i class="fab fa-github"></i>
+          </button> -->
+        </div>
+      </form>
+    </div>
